@@ -77,10 +77,10 @@ body {
 .container main {
     width: 100%;
     height: calc(100vh - 70px);
-    background-image: url(lizian.jpg);
+    background-image: url(DSC_4743a\ \(2\).jpg);
     background-repeat: no-repeat;
-    background-size: inherit;
-    background-position: right center;
+    background-size: contain;
+    background-position: right -20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -108,6 +108,7 @@ main .infoText {
 }
 .infoText button {
     padding: 10px 12px;
+    border: #79747b 1px solid;
     border-radius: 20px;
     outline: none;
     font-size: 18px;
@@ -120,4 +121,66 @@ main .infoText {
 }
 .infoText button:hover {
     color: yellow;
+}
+.socialMediaIcons {
+    position: absolute;
+    bottom: 60px;
+    left: 8%;
+}
+.socialMediaIcons a i {
+    font-size: 24px;
+    padding-right: 20px;
+    color: #dedce1;
+    transition: 0.4s;
+}
+.socialMediaIcons a li:hover {
+    color: yellow;
+    transform: scale(1.2);
+}
+@media(max-width: 768px) {
+    .menu #menuBtn {
+        display: block;
+    }
+    .menu ul {
+        position: fixed;
+        width: 250px;
+        height: calc(100vh - 70px);
+        top: 70px;
+        right: -250px;
+        background-color: #232323;
+        border-radius: 30% 0% 0% 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-top: 1px solid black;
+        transition: right 0.4s cubic-bezier(1, 0.2, 0.2, 1);
+    }
+    .menu ul li {
+        padding: 20px;
+        letter-spacing: 2px;
+    }
+    .menu ul li:nth-child(1) {
+        margin-top: 30px;
+    }
+    .container .menu {
+        background-color: #232323;
+    }
+    .container main {
+        background-position: center;
+    }
+    #menuBtn.active .bar:nth-child(2) {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    #menuBtn.active .bar:nth-child(1) {
+        transform: translateX(8px) rotate(45deg);
+        
+    }
+    #menuBtn.active .bar:nth-child(3) {
+        transform: translateX(-8px) rotate(-45deg);
+        
+    }
+    .menu ul.active {
+        right: 0;
+    }
 }
