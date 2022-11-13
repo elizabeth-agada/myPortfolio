@@ -206,6 +206,7 @@ main .infoText {
 }
 .center{
     text-align: center;
+    
 }
  
  a {
@@ -221,11 +222,11 @@ main .infoText {
  .about img {
     text-align: center;
     height: auto;
-    width: 350px;
+    width: 320px;
  }
  .about-text {
     text-align: center;
-    width: 350px;
+    width: 320px;
 
  }
  .main2 {
@@ -236,7 +237,7 @@ main .infoText {
  }
  .about-text h2 {
     color: white;
-    font-size: 75px;
+    font-size: 65px;
     text-transform: capitalize;
     margin-bottom: 20px;
     
@@ -261,8 +262,8 @@ main .infoText {
     
  }
  #button {
-    background-color: yellow;
-    color:#fafafa;
+    background-color: rgb(182, 182, 17);
+    color:#ffffff;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -283,7 +284,7 @@ main .infoText {
  }
  .title h2 {
     color: white;
-    font-size: 75px;
+    font-size: 65px;
     text-align: center;
  }
  .box {
@@ -321,7 +322,7 @@ main .infoText {
     margin-bottom: 25px;
  }
  .card #button {
-    background-color: yellow;
+    background-color:  rgb(182, 182, 17);
     color:#fafafa;
     text-decoration: none;
     border: 2px solid transparent;
@@ -348,7 +349,12 @@ main .infoText {
  }
  .mywork h2 {
     color: white;
-    font-size: 75px;
+    font-size: 65px;
+    text-align: center;
+ }
+ .mywork p {
+    color: white;
+    
     text-align: center;
  }
  .contact-me {
@@ -369,7 +375,7 @@ main .infoText {
     margin-bottom: 25px;
  }
  .contact-me .button-two {
-    background-color: yellow;
+    background-color:  rgb(182, 182, 17);
     color:#fafafa;
     text-decoration: none;
     border: 2px solid transparent;
@@ -577,7 +583,7 @@ main .infoText {
         
      }
      #button {
-        background-color: yellow;
+        background-color:  rgb(182, 182, 17);
         color:#fafafa;
         text-decoration: none;
         border: 2px solid transparent;
