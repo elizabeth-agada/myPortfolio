@@ -157,14 +157,13 @@ main .infoText {
     color: rgb(182, 182, 21);
     transform: scale(1.2);
 }
-.mywork p {
-    padding-bottom: 20px;
-}
+
 .mywork h2 {
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
+    padding-bottom: 20px;
  }
  .mywork {
     width: 100%;
