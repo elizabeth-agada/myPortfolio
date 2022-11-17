@@ -273,7 +273,7 @@ main .infoText {
  }
  #button:hover {
     background-color: transparent;
-    border: 2px solid yellow;
+    border: 2px solid rgb(182, 182, 21);
     cursor: pointer;
  }
  .services {
@@ -293,7 +293,7 @@ main .infoText {
  }
  .card {
     height: 365px;
-    width: 320px;
+    width: 335px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
@@ -307,7 +307,7 @@ main .infoText {
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: yellow ;
+    color: rgb(182, 182, 21) ;
  }
  h5 {
     color: white;
@@ -333,7 +333,7 @@ main .infoText {
  }
  .card #button:hover {
     background-color: transparent;
-    border: 2px solid yellow;
+    border: 2px solid rgb(182, 182, 21);
     cursor: pointer;
  }
  .mywork {
@@ -380,7 +380,7 @@ main .infoText {
  }
  .contact-me .button-two:hover {
     background-color: transparent;
-    border: 2px solid yellow;
+    border: 2px solid rgb(182, 182, 21);
     cursor: pointer;
  }
  footer {
@@ -419,7 +419,7 @@ main .infoText {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: yellow;
+    background: rgb(182, 182, 21);
     border-radius: 50%;
     margin: 22px 10px;
     font-size: 20px;
@@ -434,7 +434,7 @@ main .infoText {
 }
 .done {
     position: absolute;
-    color: yellow;
+    color: rgb(182, 182, 21);
     bottom: 35px;
     font-size: 14px;
 }
@@ -477,7 +477,7 @@ main .infoText {
     
     .infoText h1 span {
         display: inline;
-        color: yellow;
+        color:rgb(182, 182, 21);
         padding-left:10px ;
         
     }
@@ -495,7 +495,7 @@ main .infoText {
         transition: all 0.4s;
     }
     .infoText button:hover {
-        color: yellow;
+        color: rgb(182, 182, 21);
     }
     .socialMediaIcons {
         display: inline;
@@ -510,7 +510,7 @@ main .infoText {
         transition: 0.4s;
     }
     .socialMediaIcons a li:hover {
-        color: yellow;
+        color: rgb(182, 182, 21);
         transform: scale(1.2);
     }
     .main2 {
@@ -566,7 +566,7 @@ main .infoText {
         
      }
      .about-text h5 span {
-        color: yellow;
+        color: rgb(182, 182, 21);
      }
      .about-text p {
         color: #e7c3c3;
@@ -577,7 +577,7 @@ main .infoText {
         
      }
      #button {
-        background-color: yellow;
+        background-color: rgb(182, 182, 21);
         color:#fafafa;
         text-decoration: none;
         border: 2px solid transparent;
@@ -589,7 +589,7 @@ main .infoText {
      }
      #button:hover {
         background-color: transparent;
-        border: 2px solid yellow;
+        border: 2px solid rgb(182, 182, 21);
         cursor: pointer;
      }
      .title h2 {
