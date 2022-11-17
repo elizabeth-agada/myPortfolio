@@ -383,6 +383,12 @@ main .infoText {
     border: 2px solid rgb(182, 182, 21);
     cursor: pointer;
  }
+ .mywork p {
+    color:#e7c3c3 ;
+ }
+ .work {
+    display: flex;
+ }
  footer {
     position: relative;
     width: 100%;
@@ -620,6 +626,18 @@ main .infoText {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
+ }
+ .mywork {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .mywork p {
+    color:#e7c3c3 ;
+ }
+ .work {
+    display: flex;
+    justify-content: space-between;
  }
  footer {
     position: relative;
