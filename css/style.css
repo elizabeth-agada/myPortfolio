@@ -32,7 +32,7 @@ body {
 }
 .container .logo span {
     padding-left: 10px;
-    color: yellow;
+    color: rgb(182, 182, 21);
 }
 .menu ul {
     list-style-type: none;
@@ -53,7 +53,7 @@ body {
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: yellow;
+    background-color: rgb(182, 182, 21);
     top: 110%;
     left: 0;
     border-radius: 5px;
@@ -113,7 +113,7 @@ main .infoText {
     text-shadow: 2px 2px 2px #333, -2px -2px 2px #333;
 }
 .infoText h1 span {
-    color: yellow;
+    color: rgb(182, 182, 21);
     padding-left:10px ;
     display: block;
     
@@ -133,13 +133,13 @@ main .infoText {
 }
 .infoText h1 span1 {
     display: none;
-    color: yellow;
+    color: rgb(182, 182, 21);
     padding-left:10px ;
     
 }
 
 .infoText button:hover {
-    color: yellow;
+    color: rgb(182, 182, 21);
 }
 .socialMediaIcons {
     display: none;
@@ -154,7 +154,7 @@ main .infoText {
     transition: 0.4s;
 }
 .socialMediaIcons a li:hover {
-    color: yellow;
+    color: rgb(182, 182, 21);
     transform: scale(1.2);
 }
 @media only screen and (max-width: 768px) {
@@ -210,7 +210,7 @@ main .infoText {
  
  a {
     text-decoration: none;
-    color: yellow;
+    color: rgb(182, 182, 21);
  }
  .about {
     width: 100%;
@@ -250,7 +250,7 @@ main .infoText {
     
  }
  .about-text h5 span {
-    color: yellow;
+    color: rgb(182, 182, 21);
  }
  .about-text p {
     color: #e7c3c3;
