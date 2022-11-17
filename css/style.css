@@ -157,6 +157,9 @@ main .infoText {
     color: rgb(182, 182, 21);
     transform: scale(1.2);
 }
+.mywork p {
+    padding-bottom: 20px;
+}
 .mywork h2 {
     text-align: center;
     color: white;
@@ -173,11 +176,7 @@ main .infoText {
     justify-content: center;
     padding: 50px 20px 10px 20px;
  }
- .mywork h2 {
-    color: white;
-    font-size: 35px;
-    text-align: center;
- }
+ 
 @media only screen and (max-width: 768px) {
     .menu #menuBtn {
         display: block;
