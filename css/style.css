@@ -107,7 +107,7 @@ main .infoText {
 .infoText h1 {
     
     color: #dedce1;
-    font-size: 50px;
+    font-size: 35px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #333, -2px -2px 2px #333;
@@ -289,7 +289,7 @@ main .infoText {
  }
  .title h2 {
     color: white;
-    font-size: 65px;
+    font-size: 35px;
     text-align: center;
  }
  .box {
@@ -354,7 +354,7 @@ main .infoText {
  }
  .mywork h2 {
     color: white;
-    font-size: 65px;
+    font-size: 35px;
     text-align: center;
  }
  .contact-me {
