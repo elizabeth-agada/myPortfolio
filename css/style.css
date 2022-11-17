@@ -157,6 +157,12 @@ main .infoText {
     color: rgb(182, 182, 21);
     transform: scale(1.2);
 }
+.mywork h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+ }
 @media only screen and (max-width: 768px) {
     .menu #menuBtn {
         display: block;
@@ -236,7 +242,7 @@ main .infoText {
  }
  .about-text h2 {
     color: white;
-    font-size: 65px;
+    font-size: 35px;
     text-transform: capitalize;
     margin-bottom: 20px;
     
@@ -253,7 +259,7 @@ main .infoText {
     color: rgb(182, 182, 21);
  }
  .about-text p {
-    color: #e7c3c3;
+    color: #dedce1;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -315,7 +321,7 @@ main .infoText {
     margin-bottom: 15px;
  }
  .pra p {
-    color: #e7c3c3;
+    color: #dedce1;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
@@ -384,8 +390,9 @@ main .infoText {
     cursor: pointer;
  }
  .mywork p {
-    color:#e7c3c3 ;
+    color:#dedce1 ;
  }
+ 
  .work {
     display: flex;
  }
@@ -604,6 +611,12 @@ main .infoText {
         width: 1130px;
         margin: 30px auto;
         text-align: center;
+     }
+     .mywork h2 {
+        text-align: center;
+        color: white;
+        font-size: 65px;
+        font-weight: bold;
      }
      
      .services {
