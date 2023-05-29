@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'josefin Sans', sans-serif;
     box-sizing: border-box;
+    
   
 }
 body {
@@ -16,6 +17,7 @@ body {
     color: #ffffff;
     padding-bottom: 20px;
     padding: 50px 20px 10px 20px;
+    
 }
 .container .menu {
 
@@ -240,7 +242,7 @@ main .infoText {
  .about img {
     text-align: center;
     height: auto;
-    width: 320px;
+    width: 300px;
  }
  .about-text {
     text-align: center;
@@ -312,7 +314,7 @@ main .infoText {
  }
  .card {
     height: 365px;
-    width: 335px;
+    width: 280px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
