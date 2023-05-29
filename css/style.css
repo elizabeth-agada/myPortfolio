@@ -240,9 +240,10 @@ main .infoText {
     align-content: center;
  }
  .about img {
-    text-align: center;
+    align-items: center;
     height: auto;
     width: 300px;
+    margin-left: 35px;
  }
  .about-text {
     text-align: center;
